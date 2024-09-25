@@ -1,0 +1,526 @@
+/* App Fonts  */
+
+@font-face {
+    font-family: "TTNorms";
+    src: url("../fonts/TTNorms-Regular.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Medium";
+    src: url("../fonts/TTNorms-Medium.otf") format("openType");
+}
+
+@font-face {
+    font-family: "TTNorms Light";
+    src: url("../fonts/TTNorms-Light.otf") format("openType");
+}
+
+@font-face {
+    font-family: "Times Roman Italic";
+    src: url("../fonts/Times-new-roman-italic.ttf") format("truetype");
+}
+
+
+/* Start Project */
+
+html {
+    box-sizing: border-box;
+}
+
+
+*,
+*:after,
+*:before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "TTNorms";
+}
+
+.container {
+    width: 80rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+
+/* Header Top */
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {}
+
+.nav-logo__img {
+    margin-right: 2rem;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.menu__list {}
+
+.menu__link {
+    text-decoration: none;
+    padding: 0 1rem;
+    color: #081D43;
+
+}
+
+.header__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0050C8;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+
+}
+
+/* Header Bottom */
+
+.header-bottom {
+    margin-top: 5.5rem;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.header-content__left {
+    flex-basis: 50%;
+}
+
+.header-content__wrapper {
+    max-width: 25rem;
+}
+
+.header-left__title {
+    color: #081D43;
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+    line-height: 2.5rem;
+
+}
+
+.header-left__text {
+    color: #6C7890;
+    line-height: 2rem;
+}
+
+.header-content__links {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.header-content__link {
+    text-decoration: none;
+    color: #fff;
+    background-color: #0050C8;
+    padding: 0.7rem 1.5rem;
+    border-radius: 0.3rem;
+    display: block;
+    width: 10rem;
+    margin-right: 0.8rem;
+    text-align: center;
+}
+.header__btn {
+    display: none;
+}
+.header-content__link:nth-child(1) {
+    background-color: #87BC25;
+}
+
+.header-content__right {
+    flex-basis: 50%;
+}
+
+.header-content__img {
+    width: 100%;
+}
+
+
+/* start main  */
+
+.main {
+    padding: 5rem 0;
+}
+
+.works {
+    text-align: center;
+}
+
+.works__text {
+    margin: 0;
+    font-family: "TTNorms";
+    color: #6C7890;
+    font-weight: normal;
+    font-size: 0.95rem;
+}
+
+.works__title {
+    margin: 0;
+    padding-top: 1rem;
+    color: #081D43;
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+}
+
+.works-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.works-content__item {}
+
+.works-content__title {
+    color: #081D43;
+    font-weight: normal;
+}
+
+.works-content__text {
+    max-width: 16rem;
+    color: #6C7890;
+    line-height: 2rem;
+}
+
+.works-img {
+    max-width: 31rem;
+    margin: 0 auto;
+}
+
+.works-img__img {
+    width: 100%;
+}
+
+/* person comment section */
+
+.person-comment {
+    background-color: #2F5BEA;
+    text-align: center;
+    color: #fff;
+    padding: 2.5rem 0;
+    margin-top: 5rem;
+}
+
+.comment__title {
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+    font-size: 1.9rem;
+    margin-bottom: 0.8rem;
+}
+
+.comment__text {
+    font-family: "TTNorms Light";
+    max-width: 28rem;
+    margin: 0 auto;
+    line-height: 1.8rem;
+}
+
+.comments-container {
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
+
+}
+
+.comments {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.comment {
+    background-color: #fff;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 20rem;
+    min-height: 18rem;
+}
+
+.comment__content {
+    font-family: "Times Roman Italic";
+    color: #7E8085;
+    padding: 1.2rem;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.comment__body {
+    margin: 0;
+}
+
+.comment__info {
+    display: flex;
+    align-items: center;
+    padding: 0.8rem 1.2rem;
+    border-top: 1px solid #e8e8ef;
+}
+
+.comment__img {}
+
+.comment__person {
+    color: #000;
+    margin: 0 0 0 0.5rem;
+}
+
+.componies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 6em;
+}
+
+.componies__img {
+    display: block;
+    margin: 1rem;
+}
+
+.portfolio {
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.portfolio__text {
+    margin: 0;
+    color: #6C7890;
+    font-size: 0.95rem;
+}
+
+.portfolio__title {
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+    font-family: "TTNorms Medium";
+    font-weight: normal;
+    color: #081D43;
+    line-height: 2.5rem
+}
+
+.portfolio-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
+
+.portfolio__item {
+    width: 23rem;
+    display: block;
+    border-radius: 0.3rem;
+}
+
+/* start footer */
+
+.footer {
+
+}
+.newsletter {
+    background-color: #2C57E4;
+    padding: 4rem 0;
+}
+.newsletter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.newsletter__text {
+    color: #fff;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+.newsletter__email {
+    background-color: #FFF;
+    padding: 0.3rem 0.3rem 0.3rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    /* !!! */
+    flex-basis: 20rem;
+    border-radius: 0.3rem;
+}
+
+.newsletter__txt {
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.newsletter__btn {
+    background-color: #2F5BEA;
+    border: none;
+    outline: none;
+    padding: 0.9rem 1.3rem;
+    border-radius: 0.3rem;
+}
+
+/* copyright */
+
+.copyright {
+    padding: 1rem 0;
+}
+.copyright-wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.copyright__txt {
+    font-size: 0.9rem;
+    color: #6C7890;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header-bottom {
+        margin-top: 2.5rem;
+    }
+
+    .header__link {
+        display: none;
+    }
+
+    .header-content {
+        margin-top: 2.5rem;
+    }
+
+    .header-content {
+        flex-direction: column-reverse;
+    }
+
+    .header-content__wrapper {
+        text-align: center;
+    }
+
+    .header-content__links {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .comments {
+        flex-wrap: wrap;
+    }
+    .comment {
+        flex-basis: 18rem;
+    } 
+
+    .componies {
+        margin-top: 2rem;
+        justify-content: center;
+    }
+
+    .portfolio__item {
+        width: 20rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .menu {
+        border-radius: 0 0.3rem 0.3rem 0;
+        position: fixed;
+        left: -256px;
+        top: 0;
+        bottom: 0;
+        background-color: #0095ff;
+        flex-direction: column;
+        width: 16rem;
+        padding: 1rem;
+        transition: 0.3s all;
+    }
+
+    .menu__list {
+        margin-bottom: 1.5rem;
+    }
+
+    .menu__link {
+        color: #fff;
+    }
+
+    .header__btn {
+        display: block;
+        font-size: 1.8rem;
+    }
+
+    .componies {
+        flex-direction: column;
+    }
+
+    .newsletter__wrapper {
+        flex-direction: column;
+    }
+
+    .newsletter__email {
+        flex-basis: auto;
+        width: 20rem;
+    }
+
+    .newsletter__text {
+        text-align: center;
+    }
+
+    .portfolio__item {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+
+    .header-content__link {
+        margin-bottom: 1rem;
+    }
+
+    .newsletter__txt {
+        width: 100%;
+    }
+ 
+
+}
+
